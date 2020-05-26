@@ -1,13 +1,11 @@
-var gal_par = ["tt_par1","tt_par2","tt_par3","tt_par4","tt_par5","tt_par6","tt_par7","tt_par8","tt_par9"];
-var gal_img = ["tt_img1","tt_img2","tt_img3","tt_img4","tt_img5","tt_img6","tt_img7","tt_img8","tt_img9"];
+var gal_par = ["gal_par1","gal_par2","gal_par3","gal_par4","gal_par5","gal_par6"];
+var gal_img = ["gal_img1","gal_img2","gal_img3","gal_img4","gal_img5","gal_img6"];
 
-function text(page,ind){
-	document.getElementById(tt_par[ind]).style.display = "block";
-	document.getElementById(tt_par[ind]).innerHTML = tt_captions[ind];
-	document.getElementById(tt_img[ind]).style.display = "none";
+function text(ind){
+	document.getElementById(gal_par[ind]).style.display = "block";
+	document.getElementById(gal_img[ind]).style.display = "none";
 }
-function image(page, ind){
-	document.getElementById(tt_par[ind]).style.display = "none";
-	document.getElementById(tt_par[ind]).innerHTML = "";
-	document.getElementById(tt_img[ind]).style.display = "block";
+function image(ind){
+	document.getElementById(gal_par[ind]).style.display = "none";
+	document.getElementById(gal_img[ind]).style.display = "block";
 }
