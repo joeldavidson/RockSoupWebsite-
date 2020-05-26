@@ -1,5 +1,12 @@
+/**
+Background: #ffd9bf
+Color: #361500
+Border-Color: #99623d
+Caption-Color: #ff8433
+**/
 body{
     background-color: #ffd9bf;
+    color: #361500;
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
@@ -60,35 +67,34 @@ li.nav a.active{
 li.nav a:hover {
   	background-color:  #99623d;
 }
-p.pagetitle{
-    font-size: 150px;
+
+.main{
+    display: inline;
+}
+
+p.pagetitletext{
     writing-mode: vertical-rl;
     text-align: right;
     transform: rotate(180deg);
     transform-origin: left;
-    display: block;
-    float: left;
     height: 100%;
+    font-size: 150px;
+    float: left;
+}
+.pagetitle{
+    font-size: 150px;
+    height: 100%;
+    float: left;
+    width: 10px;
 }
 .row{
-    display: table;
-}
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-.caption{
-      background-color: #f2c866;
-      width: 90%;
-        height: auto;
-      margin-left: 5%;
-      margin-right:5%;
+    padding-left: 155px;
 }
 .column{
+    width: 28%;
     float: left;
-    width: 20%;
-    height: auto;
-    padding: 1%;
-    margin-left: 5%;
+    padding: 10px;
+}
+.caption{
+    background-color: #ff8433;
 }
