@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <link rel = "stylesheet" href="rock_style.css"/>
+    <script src="textReplace.js"></script>
     <title>Rock Soup Gallery</title>
 </head>
 <body>
@@ -13,8 +14,25 @@
         <li class = "nav"><a class = "active", href="gallery.html">Gallery</a></li>
     </ul>
     <p class="pagetitle">Gallery</p>
-    <p> Hello World</p>
-    <p> This is so nice.</p>
-    <p>testing Joel's branch </p>
+    <div class = "row"> 
+        <div class="column" onmouseover="text(0,0)" onmouseout="image(0,0)">
+                <p id = "gal_par1" class = "caption" style = "display:none">
+                    Text Goes Here
+                </p>
+            <img id = "gal_img1" src="Images/banana_pancakes.png" alt=
+          "Name of Image" style="width:100%; display:block">
+        </div>
+        <div class="column" onmouseover="text(0,1)" onmouseout="image(0,1)">
+            <p id = "tt_par2" class = "caption" style = "display:none"></p>
+            <img id = "tt_img2" src="Images/banana_pancakes.png" alt=
+          "Name of Image" style="width:100%; display:block">
+        </div>
+  
+        <div class="column" onmouseover="text(0,2)" onmouseout="image(0,2)">
+            <p id = "tt_par3" class = "caption" style = "display:none"></p>
+          <img id = "tt_img3" src="Images/banana_pancakes.png" alt=
+          "Name of Image" style="width:100%; display:block">
+        </div>
+    </div>
 </body>
 </html>

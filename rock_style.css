@@ -63,8 +63,32 @@ li.nav a:hover {
 p.pagetitle{
     font-size: 150px;
     writing-mode: vertical-rl;
+    text-align: right;
     transform: rotate(180deg);
     transform-origin: left;
     display: block;
     float: left;
+    height: 100%;
+}
+.row{
+    display: table;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.caption{
+      background-color: #f2c866;
+      width: 90%;
+        height: auto;
+      margin-left: 5%;
+      margin-right:5%;
+}
+.column{
+    float: left;
+    width: 20%;
+    height: auto;
+    padding: 1%;
+    margin-left: 5%;
 }
