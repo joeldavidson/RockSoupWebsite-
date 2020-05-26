@@ -60,3 +60,11 @@ li.nav a.active{
 li.nav a:hover {
   	background-color:  #99623d;
 }
+p.pagetitle{
+    font-size: 150px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    transform-origin: left;
+    display: block;
+    float: left;
+}
