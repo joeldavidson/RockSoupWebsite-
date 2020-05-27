@@ -17,6 +17,25 @@ header{
     	border-right-width: 15px;
     	border-color: #99623d;
 }
+.search{
+    display: block;
+    float: left;
+    width: 150px;
+    height: 60px;
+    font-size: 40px;
+    color:  #361500;
+    margin: 0;
+    padding: 20px;
+    height: 72px;
+
+    background-color: #ffd9bf;
+	border-style: solid;
+    	border-width: 10px;
+    	border-left-width: 10px;
+    	border-right-width: 10px;
+    	border-color:  #99623d;
+
+}
 img.himg{
     float: left;
     display: block;
@@ -96,5 +115,5 @@ p.pagetitletext{
     padding: 10px;
 }
 .caption{
-    background-color: #ff8433;
+    background-color: #ffc299;
 }
