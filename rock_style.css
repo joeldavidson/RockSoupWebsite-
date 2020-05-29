@@ -100,6 +100,11 @@ p.pagetitletext{
     font-size: 150px;
     float: left;
 }
+
+.sectiontitle{
+    font-size: 50px;
+    font-weight:bold;
+}
 .pagetitle{
     font-size: 150px;
     height: 100%;
@@ -114,6 +119,13 @@ p.pagetitletext{
     float: left;
     padding: 10px;
 }
+
+.columnDW {
+    width: 56%;
+    float: left;
+    padding: 10px;
+}
+
 .caption{
     background-color: #ffc299;
 }

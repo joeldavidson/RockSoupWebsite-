@@ -92,7 +92,10 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="gallery.html" />
     <Content Include="index.html" />
+    <Content Include="recipes.html" />
+    <Content Include="rock_style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
