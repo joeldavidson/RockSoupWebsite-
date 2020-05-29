@@ -15,7 +15,7 @@ header{
     border-width: 15px;
     	border-left-width: 15px;
     	border-right-width: 15px;
-    	border-color: #99623d;
+        border-color: #99623d;
 }
 .search{
     display: block;
@@ -48,7 +48,28 @@ img.himg{
     padding: 20px;
 	height: 100px;
 }
+ul.menulist{
+    font-size: 50px;
+    list-style-type: circle;
+    height: auto;
+    overflow: hidden;
+}
+li.menulist{
+    color: #361500;
+}
+li.menulist a{
+    color: #361500;
+	display: block;
+	text-decoration: none;
+	text-align: left;
+}
+li.menulist a:hover{
+    background-color:  #99623d;
+}
 
+li.nav a:hover {
+    background-color:  #99623d;
+}
 ul.nav{
     display: block;
 	background-color: #ffd9bf;
@@ -99,6 +120,14 @@ p.pagetitletext{
     height: 100%;
     font-size: 150px;
     float: left;
+}
+.sectiontitle{
+    font-size: 50px;
+    font-weight:bold;
+}
+.menutitle{
+    font-size: 50px;
+    font-weight: bold;
 }
 .pagetitle{
     font-size: 150px;
