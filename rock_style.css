@@ -48,6 +48,9 @@ img.himg{
     padding: 20px;
 	height: 100px;
 }
+.rimg{
+    width: 90%;
+}
 ul.menulist{
     font-size: 50px;
     list-style-type: circle;
