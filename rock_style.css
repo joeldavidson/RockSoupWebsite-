@@ -149,3 +149,6 @@ p.pagetitletext{
 .caption{
     background-color: #ffc299;
 }
+h1.row{
+    padding-right: 100px;
+}
