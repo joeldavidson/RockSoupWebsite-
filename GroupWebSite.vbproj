@@ -92,7 +92,9 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BananaOatChocoChip.html" />
     <Content Include="BananaWalnutPancakes.html" />
+    <Content Include="FarmerScramble.html" />
     <Content Include="gallery.html" />
     <Content Include="index.html" />
     <Content Include="rock_style.css" />
@@ -100,6 +102,7 @@
     <Content Include="TunaCasserole.html" />
     <Content Include="TurkeyPestoMeatballs.html" />
     <Content Include="Web.config" />
+    <Content Include="WhiteChickenChili.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="My Project\AssemblyInfo.vb" />
