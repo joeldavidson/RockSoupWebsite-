@@ -93,10 +93,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="avotoast.html" />
+    <Content Include="BananaOatChocoChip.html" />
     <Content Include="BananaWalnutPancakes.html" />
     <Content Include="beansoup.html" />
     <Content Include="ChickenTortillaSoup.html" />
     <Content Include="chocchipcookies.html" />
+    <Content Include="FarmerScramble.html" />
     <Content Include="gallery.html" />
     <Content Include="index.html" />
     <Content Include="LemonChicken.html" />
@@ -104,8 +106,10 @@
     <Content Include="rock_style.css" />
     <Content Include="special_k_bars.html" />
     <Content Include="textReplace.js" />
+    <Content Include="TunaCasserole.html" />
     <Content Include="TurkeyPestoMeatballs.html" />
     <Content Include="Web.config" />
+    <Content Include="WhiteChickenChili.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="My Project\AssemblyInfo.vb" />
