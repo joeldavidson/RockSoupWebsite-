@@ -114,7 +114,8 @@ li.nav a:hover {
 }
 
 .main{
-    display: inline;
+    display: block;
+    float: left;
 }
 
 p.pagetitletext{
@@ -141,10 +142,10 @@ p.pagetitletext{
     width: 10px;
 }
 .row{
-    padding-left: 155px;
+    padding-left: 155px;;
 }
 .column{
-    width: 28%;
+    width: 30%;
     float: left;
     padding: 10px;
 }
