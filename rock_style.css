@@ -213,7 +213,9 @@ li.dropdown a, .dropbtn {
     width:42%;
     padding:10px;
     display:inline-block;
-    vertical-align:bottom
+    vertical-align:bottom;
+    float:left;
+
 }
 
 .gsc-control-cse {
