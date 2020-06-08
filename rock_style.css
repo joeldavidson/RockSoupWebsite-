@@ -144,8 +144,15 @@ p.pagetitletext{
     width: 10px;
 }
 .row{
-    padding-left: 155px;;
+    padding-left: 155px;
 }
+
+.columnDW {
+    width: 59%;
+    float: left;
+    padding: 10px;
+}
+
 .column{
     width: 30%;
     float: left;
