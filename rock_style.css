@@ -145,6 +145,7 @@ p.pagetitletext{
     width:35%;
     padding:10px;
     display:inline-block;
+    float:left;
 }
 
 .gsc-control-cse {
