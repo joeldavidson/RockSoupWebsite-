@@ -9,6 +9,12 @@ body{
     color: #361500;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+h1
+{
+    text-align:center;
+}
+
 header{
     background-color: #ffd9bf;
     border-style: solid;
@@ -48,11 +54,15 @@ img.himg{
     padding: 20px;
 	height: 100px;
 }
-.rimg{
-    width: 90%;
+.rimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:10px;
+    width: 50%;
 }
 ul.menulist{
-    font-size: 50px;
+    font-size: 25px;
     list-style-type: circle;
     height: auto;
     overflow: hidden;
@@ -61,6 +71,7 @@ ul.menulist{
 li.menulist{
     float: clear;
     color: #361500;
+    
 }
 li.menulist a{
     color: #361500;
@@ -132,18 +143,20 @@ p.pagetitletext{
     font-weight:bold;
 }
 .menutitle{
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     padding-bottom:5px;
     margin-bottom:5px;
 }
+
 .pagetitle{
     font-size: 150px;
     height: 100%;
     float: left;
     width: 10px;
 }
-.row{
+
+.row {
     padding-left: 155px;
 }
 
@@ -163,6 +176,7 @@ p.pagetitletext{
 }
 h1.row{
     padding-right: 100px;
+    text-align:center;
 }
 
 li.dropdown{
@@ -195,7 +209,7 @@ li.dropdown a, .dropbtn {
     display: none;
     position: absolute;
     background-color: #ffd9bf;
-    min-width: 160px;
+    min-width: 80px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
