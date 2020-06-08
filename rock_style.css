@@ -134,6 +134,8 @@ p.pagetitletext{
 .menutitle{
     font-size: 50px;
     font-weight: bold;
+    padding-bottom:5px;
+    margin-bottom:5px;
 }
 .pagetitle{
     font-size: 150px;
@@ -208,9 +210,10 @@ li.dropdown a, .dropbtn {
   /*For Google search Bar*/
 
 .googleSearch{
-    width:30%;
+    width:42%;
     padding:10px;
     display:inline-block;
+    vertical-align:bottom
 }
 
 .gsc-control-cse {
