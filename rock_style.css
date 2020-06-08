@@ -158,6 +158,7 @@ p.pagetitletext{
 
 .row {
     padding-left: 155px;
+    display: table;
 }
 
 .columnDW {
